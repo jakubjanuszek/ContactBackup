@@ -13,6 +13,9 @@ public class Contact {
         this.number = number;
     }
 
+    public Contact() {
+    }
+
     public String getName() {
         return name;
     }

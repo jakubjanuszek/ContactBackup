@@ -24,7 +24,6 @@ public class ContactProvider {
             do {
                 String name = cursor.getString(nameIdx);
                 String phoneNumber = cursor.getString(phoneNumberIdx);
-                System.out.println(name+" "+phoneNumber);
                 Contact contact = new Contact(name,phoneNumber);
                 contacts.add(contact);
             } while (cursor.moveToNext());
